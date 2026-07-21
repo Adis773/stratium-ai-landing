@@ -159,15 +159,8 @@ export function FooterSection() {
         {/* Bottom Bar */}
         <div className="py-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-white/30">
-            &copy; 2025 Stratium AI. {t.footer.rights}
+            &copy; 2026 Stratium AI. {t.footer.rights}
           </p>
-
-          <div className="flex items-center gap-4 text-sm text-white/30">
-            <span className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-green-400" />
-              {t.footer.status}
-            </span>
-          </div>
         </div>
       </div>
     </footer>

@@ -21,9 +21,45 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Stratium AI — Autonomous agent that runs your computer',
-  description: 'Stratium AI is an autonomous AI agent that fully controls your computer. Delegate real tasks and let it work on its own for up to 10 days. Download for Windows.',
-  generator: 'v0.app',
+  title: 'Stratium AI — Самый дешёвый и автономный ИИ-агент для Windows',
+  description: 'Stratium AI — автономный ИИ-агент, который полностью управляет вашим компьютером. Делегируйте реальные задачи и позволяйте ему работать самостоятельно до 10 дней. Самый доступный и лучший AI-агент на рынке. Скачать для Windows бесплатно.',
+  keywords: [
+    'автономный ИИ агент', 'AI агент для Windows', 'бесплатный ИИ ассистент',
+    'автоматизация компьютера', 'искусственный интеллект на пк',
+    'stratium ai', 'stratium', 'open source AI agent',
+    'бесплатный AI агент', 'дешёвый AI агент',
+    'autonomous AI agent', 'AI computer control', 'free AI agent for Windows',
+    'open webui agent', 'mcp agent', 'windows automation AI',
+  ],
+  authors: [{ name: 'Stratium AI' }],
+  creator: 'Stratium AI',
+  publisher: 'Stratium AI',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large',
+  openGraph: {
+    type: 'website',
+    locale: 'ru_RU',
+    siteName: 'Stratium AI',
+    title: 'Stratium AI — Самый дешёвый и автономный ИИ-агент',
+    description: 'Автономный ИИ-агент для Windows. Делегируйте задачи и получайте результат. Работает до 10 дней без участия человека.',
+    url: 'https://stratium-ai.vercel.app',
+    images: [{ url: '/apple-icon.png', width: 180, height: 180 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Stratium AI — Автономный ИИ-агент',
+    description: 'Самый доступный автономный AI агент для Windows. Управляет компьютером, выполняет задачи, пишет код.',
+    images: ['/apple-icon.png'],
+  },
+  icons: {
+    icon: '/icon-light-32x32.png',
+    shortcut: '/icon-light-32x32.png',
+    apple: '/apple-icon.png',
+  },
+  manifest: '/site.webmanifest',
+  metadataBase: new URL('https://stratium-ai.vercel.app'),
+  alternates: {
+    canonical: 'https://stratium-ai.vercel.app',
+  },
 }
 
 export default function RootLayout({

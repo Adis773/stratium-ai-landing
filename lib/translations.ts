@@ -256,7 +256,6 @@ const en = {
     },
     download: "Download for Windows",
     rights: "All rights reserved.",
-    status: "All systems operational",
   },
 };
 
@@ -518,7 +517,6 @@ const ru: Dictionary = {
     },
     download: "Скачать для Windows",
     rights: "Все права защищены.",
-    status: "Все системы работают",
   },
 };
 
