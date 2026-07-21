@@ -24,7 +24,7 @@ const en = {
       { value: "1-click", label: "launch on Windows" },
     ],
     cta: "Download for Windows",
-    note: ".exe · Windows 10 / 11 · free to try",
+    note: ".zip · Windows 10 / 11 · free to try",
   },
   features: {
     eyebrow: "Capabilities",
@@ -45,7 +45,7 @@ const en = {
         number: "01",
         title: "Install",
         subtitle: "in one click",
-        description: "Download the .exe and launch Stratium on Windows. No setup, no accounts to wire up — it just runs.",
+        description: "Download the .zip and launch Stratium on Windows. No setup, no accounts to wire up — it just runs.",
       },
       {
         number: "02",
@@ -231,7 +231,7 @@ const en = {
     lead: "Download the Windows app, describe a task, and let Stratium run for hours or days. Your first hours are free.",
     primary: "Download for Windows",
     secondary: "Watch it work",
-    note: ".exe · Windows 10 / 11 · 64-bit",
+    note: ".zip · Windows 10 / 11 · 64-bit",
   },
   footer: {
     tagline: "Autonomous AI agent that runs your computer. Delegate real work and let it grow.",
@@ -286,7 +286,7 @@ const ru: Dictionary = {
       { value: "1 клик", label: "запуск на Windows" },
     ],
     cta: "Скачать для Windows",
-    note: ".exe · Windows 10 / 11 · попробуй бесплатно",
+    note: ".zip · Windows 10 / 11 · попробуй бесплатно",
   },
   features: {
     eyebrow: "Возможности",
@@ -307,7 +307,7 @@ const ru: Dictionary = {
         number: "01",
         title: "Установи",
         subtitle: "в один клик",
-        description: "Скачай .exe и запусти Stratium на Windows. Без настройки и лишних аккаунтов — просто работает.",
+        description: "Скачай .zip и запусти Stratium на Windows. Без настройки и лишних аккаунтов — просто работает.",
       },
       {
         number: "02",
@@ -493,7 +493,7 @@ const ru: Dictionary = {
     lead: "Скачай приложение для Windows, опиши задачу и дай Stratium работать часами или днями. Первые часы — бесплатно.",
     primary: "Скачать для Windows",
     secondary: "Смотреть в работе",
-    note: ".exe · Windows 10 / 11 · 64-bit",
+    note: ".zip · Windows 10 / 11 · 64-bit",
   },
   footer: {
     tagline: "Автономный ИИ-агент, который управляет твоим компьютером. Поручай реальные задачи и дай ему расти.",

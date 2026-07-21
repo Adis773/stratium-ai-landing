@@ -64,7 +64,7 @@ export function CtaSection() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-start gap-4">
-                  <Link href="/StratiumAI_Setup.exe">
+                  <Link href="/StratiumAI_Setup.zip">
                     <Button
                       size="lg"
                       className="bg-foreground hover:bg-foreground/90 text-background px-8 h-14 text-base rounded-full group"

@@ -209,7 +209,7 @@ export function HeroSection() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          <Link href="/StratiumAI_Setup.exe">
+          <Link href="/StratiumAI_Setup.zip">
             <Button
               size="lg"
               className="bg-white hover:bg-white/90 text-black rounded-full h-14 px-8 text-base gap-2 group"

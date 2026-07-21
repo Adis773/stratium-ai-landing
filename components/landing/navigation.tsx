@@ -80,7 +80,7 @@ export function Navigation() {
               asChild
               className={`rounded-full transition-all duration-500 gap-2 ${isScrolled ? "bg-foreground hover:bg-foreground/90 text-background px-4 h-8 text-xs" : "bg-white hover:bg-white/90 text-black px-5"}`}
             >
-              <a href="/StratiumAI_Setup.exe">
+              <a href="/StratiumAI_Setup.zip">
                 <Download className="w-3.5 h-3.5" />
                 {t.nav.download}
               </a>
@@ -159,7 +159,7 @@ export function Navigation() {
               className="w-full bg-foreground text-background rounded-full h-14 text-base gap-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              <Link href="/StratiumAI_Setup.exe">
+              <Link href="/StratiumAI_Setup.zip">
                 <Download className="w-4 h-4" />
                 {t.nav.download}
               </Link>

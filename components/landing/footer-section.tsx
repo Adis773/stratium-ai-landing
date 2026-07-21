@@ -122,7 +122,7 @@ export function FooterSection() {
               </p>
 
               {/* Download CTA */}
-              <Link href="/StratiumAI_Setup.exe">
+              <Link href="/StratiumAI_Setup.zip">
                 <Button className="bg-white hover:bg-white/90 text-black rounded-full h-10 px-5 text-sm gap-2 mb-8">
                   <Download className="w-4 h-4" />
                   {t.footer.download}

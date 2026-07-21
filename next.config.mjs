@@ -8,15 +8,15 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/StratiumAI_Setup.exe",
+        source: "/StratiumAI_Setup.zip",
         headers: [
           {
             key: "Content-Type",
-            value: "application/x-msdownload",
+            value: "application/zip",
           },
           {
             key: "Content-Disposition",
-            value: "attachment; filename=StratiumAI_Setup.exe",
+            value: "attachment; filename=StratiumAI_Setup.zip",
           },
         ],
       },
